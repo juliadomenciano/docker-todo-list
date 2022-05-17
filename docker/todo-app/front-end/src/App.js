@@ -1,17 +1,15 @@
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route
+  BrowserRouter as Router, Route, Switch
 } from "react-router-dom";
-
-import logo from './logo.png';
 import './App.css';
-
-import { TaskProvider } from './context/taskContext';
-
-import ItemList from './components/ItemList';
 import ItemAdd from './components/ItemAdd';
+import ItemList from './components/ItemList';
 import TaskReset from "./components/TaskReset";
+import { TaskProvider } from './context/taskContext';
+import logo from './logo.png';
+
+
+
 
 function App() {
   return (
